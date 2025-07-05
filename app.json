@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "PIS",
+    "slug": "pis",
+    "version": "1.0.1",
+    "owner": "judethomson",
+    "orientation": "portrait",
+    "icon": "../assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "jsc",
+    "entryPoint": "./node_modules/expo/AppEntry.js",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pis",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.PIS",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ab9eba6-64de-4391-aa8d-134997614474"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8ab9eba6-64de-4391-aa8d-134997614474"
+    }
+  }
+}
